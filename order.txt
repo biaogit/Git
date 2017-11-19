@@ -20,3 +20,15 @@ git diff Git命令.txt
 //查看该文件改了什么内容
 git log
 //显示日志
+git log --pretty=oneline
+//简单显示日志
+git reset  –hard HEAD^
+//回退一个版本，^^2个
+git reset  –hard HEAD~100
+//回退100个版本
+cat order.txt
+//查看内容
+git reflog
+//查看版本号
+git reset  –hard 6fcfc89
+//回到6fcfc89版本
