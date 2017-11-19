@@ -1,0 +1,20 @@
+cd e:
+//进入e盘
+mkdir Test
+//在该目录下创建Test文件夹
+pwd
+//显示当前目录
+git config --global user.email "791418579@qq.com"
+//设置本地邮箱
+git config --global user.name "zb"
+//设置本地账号
+git init
+//把这个目录变成可以git管理的仓库
+git add Git命令.txt
+//把 Git命令.txt 文件加入暂存区
+git commit -m "提交注释"
+//提交所有文件
+git status
+//查看是否有文件未提交
+git diff Git命令.txt
+//查看该文件改了什么内容
