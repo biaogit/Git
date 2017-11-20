@@ -34,7 +34,11 @@ git reset  –hard 6fcfc89
 //回到6fcfc89版本
 git checkout  -- order.txt
 //撤销修改
+git checkout order.txt
+//恢复没有被提交删掉的order.txt
 git remote add origin https://github.com/biaogit/Git.git
 //关联远程仓库
 git push origin master
 //推送到远程仓库
+rm b.txt
+//删除b.txt
