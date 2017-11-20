@@ -39,6 +39,7 @@ git checkout order.txt
 git remote add origin https://github.com/biaogit/Git.git
 //关联远程仓库
 git push origin master
-//推送到远程仓库
+//推送到远程仓库  
+git push -u origin master
 rm b.txt
 //删除b.txt
