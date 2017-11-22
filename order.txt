@@ -57,3 +57,23 @@ git merge dev
 //在master分支上合并dev分支
 git branch -d dev
 //删除分支dev
+git merge --no-ff -m "merge with no-ff" dev
+//合并dev分支 -no-ff表示禁用fast forward
+git stash
+//将当前的工作现场隐藏起来
+git stash list
+// 查看所有被隐藏的文件列表
+git stash apply
+//恢复被隐藏的文件，但是内容不删除
+git stash drop 
+// 删除文件
+git stash pop 
+//恢复文件的同时 也删除文件
+git remote
+//查看远程库信息
+git remote -v
+//查看远程库详细信息
+git push origin branch-name
+//推送自己的修改
+git pull
+//试图合并
